@@ -1,9 +1,10 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter ,Route, Routes } from "react-router-dom";
 
 import Apps from "./Apps";
 import Funds from "./Funds";
 import Holdings from "./Holdings";
+// import SignUp from "./SignUp";
 
 import Orders from "./Orders";
 import Positions from "./Positions";
@@ -25,7 +26,9 @@ const Dashboard = () => {
           <Route path="/positions" element={<Positions />} />
           <Route path="/funds" element={<Funds />} />
           <Route path="/apps" element={<Apps />} />
+          {/* <Route path="/signup" element={<SignUp/>}/> */}
         </Routes>
+    
       </div>
     </div>
   );

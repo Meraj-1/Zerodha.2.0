@@ -32,15 +32,18 @@ function SignUp() {
                     </div>
                 </div>
             </div>
-            <div>
-                <p className='text-gray-500 text-xs'>
-                    I authorize Zerodha to contact me even if my number is registered on DND. I authorize Zerodha to fetch my KYC information from the C-KYC registry with my PAN.<br />
-                    Please visit this article to know more.
-                </p>
-                <p className='text-gray-500 text-xs'>
-                    If you are looking to open a HUF, Corporate, Partnership, or NRI account, you have to use the offline forms. For help, click here.
-                </p>
-            </div>
+            <div className='mb-10 flex justify-center'>
+  <div className='text-center'>
+    <p className='text-gray-500 text-xs'>
+      I authorize Zerodha to contact me even if my number is registered on DND. I authorize Zerodha to fetch my KYC information from the C-KYC registry with my PAN.<br />
+      Please visit this article to know more.
+    </p>
+    <p className='text-gray-500 text-xs'>
+      If you are looking to open a HUF, Corporate, Partnership, or NRI account, you have to use the offline forms. For help, click here.
+    </p>
+  </div>
+</div>
+
         </div>
     );
 }
