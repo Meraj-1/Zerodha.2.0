@@ -53,7 +53,7 @@ function Navbar() {
           <li className="border-b-2 py-4"><Link className="hover:text-blue-900" to="/Support">Support</Link></li>
           {/* <li> <a href='http://localhost:3001/'><img src='https://kite.zerodha.com/static/images/kite-logo.svg' className='h-8 w-auto py-4'/> </a></li> */}
           <li>
-            <a href='http://localhost:3001/'>
+            <a href='https://dashboardclone.vercel.app/'>
               <div className=' border-b-2 py-4'>
                 <img src='https://kite.zerodha.com/static/images/kite-logo.svg' className='h-8 w-auto' />
               </div>
