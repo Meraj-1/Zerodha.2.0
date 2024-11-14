@@ -41,7 +41,7 @@ function Navbar() {
           <li><Link className="hover:text-blue-500" to="/About">About</Link></li>
           <li><Link className="hover:text-blue-500" to="/Product">Product</Link></li>
           <li><Link className="hover:text-blue-500" to="/Support">Support</Link></li>
-          <li><a href='http://localhost:3001/'><img src='https://kite.zerodha.com/static/images/kite-logo.svg' className='h-8 w-auto' /></a></li>
+          <li><a href='https://dashboardclone.vercel.app/'><img src='https://kite.zerodha.com/static/images/kite-logo.svg' className='h-8 w-auto' /></a></li>
         </ul>
       </div>
       {isMenuOpen ? (
