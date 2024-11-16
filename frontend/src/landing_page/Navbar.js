@@ -87,11 +87,11 @@ function Navbar() {
     // Remove the effect after a short duration
     setTimeout(() => {
       setClickedLink(null);
-    }, 500); // Adjust duration for the fade effect
+    }, 300); // Adjust duration for the fade effect
   };
 
   return (
-    <nav className="bg-white py-4 border-b-2">
+    <nav className="bg-white py-4  border-b-2">
       <div className="w-[92%] flex items-center justify-between">
         <Link to="/">
           <img
@@ -152,7 +152,7 @@ function Navbar() {
         </ul>
       </div>
       {isMenuOpen ? (
-        <ul className= "flex flex-col  md:hidden transition-all duration-600 ease-in-out mb-2">
+        <ul className= "flex flex-col md:hidden transition-all duration-600 ease-in-out mb-2">
           
           <Link 
             className="hover:text-blue-900 border-b-2"
@@ -160,7 +160,7 @@ function Navbar() {
             onClick={() => handleLinkClick('signup')}
           >
             <li
-              className={`py-6 ${
+              className={`py-4 flex justify-center items-center ${
                 clickedLink === 'signup' ? 'bg-blue-400 text-white' : ''
               } transition-all duration-500`}
             >
@@ -173,7 +173,7 @@ function Navbar() {
             onClick={() => handleLinkClick('pricing')}
           >
             <li
-              className={`border-b-2 py-4 ${
+              className={` flex justify-center items-center border-b-2 py-4 ${
                 clickedLink === 'pricing' ? 'bg-blue-400 text-white' : ''
               } transition-all duration-500`}
             >
@@ -186,7 +186,7 @@ function Navbar() {
             onClick={() => handleLinkClick('about')}
           >
             <li
-              className={`border-b-2 py-4 ${
+              className={` flex justify-center items-center border-b-2 py-4 ${
                 clickedLink === 'about' ? 'bg-blue-400 text-white' : ''
               } transition-all duration-500`}
             >
@@ -199,7 +199,7 @@ function Navbar() {
             onClick={() => handleLinkClick('product')}
           >
             <li
-              className={`border-b-2 py-4 ${
+              className={` flex justify-center items-center border-b-2 py-4 ${
                 clickedLink === 'product' ? 'bg-blue-400 text-white' : ''
               } transition-all duration-500`}
             >
@@ -212,7 +212,7 @@ function Navbar() {
             onClick={() => handleLinkClick('support')}
           >
             <li
-              className={`border-b-2 py-4 ${
+              className={` flex justify-center items-center border-b-2 py-4 ${
                 clickedLink === 'support' ? 'bg-blue-400 text-white' : ''
               } transition-all duration-500`}
             >
@@ -220,7 +220,7 @@ function Navbar() {
             </li>
           </Link>
           <a href="https://dashboardclone.vercel.app/">
-            <div className="border-b-2 py-4">
+            <div className=" flex justify-center items-center border-b-2 py-4">
               <img
                 src="https://kite.zerodha.com/static/images/kite-logo.svg"
                 className="h-8 w-auto"
