@@ -57,6 +57,7 @@ import Footer from "./landing_page/footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
+  <div className=" className='px-4 sm:px-[5vw] ms:px-[7vw] lg:px-[9vw]'">
   <BrowserRouter>
     <Navbar />
      <Routes> 
@@ -70,4 +71,5 @@ root.render(
     </Routes> 
     <Footer />
   </BrowserRouter>
+  </div>
 );

@@ -36,7 +36,7 @@ function Universe() {
                   productDescription="Buy direct mutual funds online, commission-free, delivered directly to your Demat account. Enjoy the investment experience on your Android and iOS devices."
                 learnmore=" Learnmore → "
             />
-            <h6 className='text-muted text-center mb-4'>Want to know more about our technology stack? Check out the <a href='#' style={{textDecoration:"none"}}>Zerodha.tech</a> blog.</h6>
+            <h6 className=' text-2xl font-bold text-gray-600 mt-20 text-center md:mb-10 mb-7'>Want to know more about our technology stack? Check out the <a href='#' style={{textDecoration:"none"}}>Zerodha.tech</a> blog.</h6>
         </>
     );
 }
