@@ -207,6 +207,13 @@ const Navbar = () => {
           <li>
             <NavLink to="/Product" className="hover:text-blue-600 font-bold">Product</NavLink>
           </li>
+          <li>
+          <NavLink
+            className="hover:text-blue-600 font-bold"
+            to="/Support">
+            Support
+          </NavLink>
+          </li>
         </ul>
         <div className="sm:hidden">
           <img
@@ -236,6 +243,8 @@ const Navbar = () => {
           <NavLink onClick={() => setVisible(false)} to="/Pricing" className="py-2 border-b font-bold">Pricing</NavLink>
           <NavLink onClick={() => setVisible(false)} to="/About" className="py-2 border-b font-bold">About</NavLink>
           <NavLink onClick={() => setVisible(false)} to="/Product" className="py-2 border-b font-bold">Product</NavLink>
+          <NavLink onClick={() => setVisible(false)} to="/Support" className="py-2 border-b font-bold">Support</NavLink>
+
         </div>
       </div>
     </div>
